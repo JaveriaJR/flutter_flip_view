@@ -7,8 +7,8 @@ class SimpleExample extends StatefulWidget {
 }
 
 class _SimpleExampleState extends State<SimpleExample> with SingleTickerProviderStateMixin {
-  AnimationController _animationController;
-  Animation<double> _curvedAnimation;
+  late AnimationController _animationController;
+  late Animation<double> _curvedAnimation;
 
   @override
   void initState() {

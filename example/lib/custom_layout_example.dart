@@ -10,8 +10,8 @@ class CustomLayoutExample extends StatefulWidget {
 
 class _CustomLayoutExampleState extends State<CustomLayoutExample>
     with SingleTickerProviderStateMixin {
-  AnimationController _animationController;
-  Animation<double> _curvedAnimation;
+  late AnimationController _animationController;
+  late Animation<double> _curvedAnimation;
 
   FocusNode _focusNode = FocusNode();
 
